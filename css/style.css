@@ -1,0 +1,199 @@
+*{
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+html, body{
+	max-width: 100%;
+	height: 100%;
+}
+body{
+	height: 5000px;
+}
+header{
+	background: url("../images/landing.jpg");
+	height:620px;
+	width: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-position: center bottom;
+}
+#logo{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding-top: 100px;
+
+}
+#text{
+
+	padding-top:-140px;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 40px;
+
+
+}
+
+/*second section*/
+#pane{
+height: auto;
+max-width: auto;
+padding: 0;
+border:0;
+margin: 0;
+overflow: hidden;
+background-size: cover;
+
+}
+.nopadding{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.happy-1{
+	height:100px;
+	background:	#D3D3D3;
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+	border:none;
+}
+.party-1{
+	height:100px;
+	background:#F15A29;
+	max-width: auto;
+	padding-right: 0;
+	margin-right: 0;
+}
+.happy{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	height: 100%;
+	color: black;
+	font-family: 'Kurale', serif;
+	font-size: 25px;
+}
+.party{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	height: 100%;
+	font-family: 'Kurale', serif;
+	font-size: 25px;
+	color: white;
+}
+
+
+.breakfast{
+	background: url("../images/breakfast.jpg");
+	height: 200px;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+}
+.lunch{
+	background: url("../images/lunch.jpg");
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+}
+.dinner{
+	background: url("../images/dinner.jpg");
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+}
+.break-1{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	height: 100%;
+	color: white;
+	font-family: 'Kurale', serif;
+	font-size: 35px;
+}
+.lunch-1{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	height: 100%;
+	color:white;
+	font-family: 'Kurale', serif;
+	font-size: 35px;
+}
+.dinner-1{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	height: 100%;
+	color: white;
+	font-family: 'Kurale', serif;
+	font-size: 35px;
+}
+.breakfast:hover{
+	opacity: 0.5;
+}
+.lunch:hover{
+  opacity: 0.5;
+}
+.dinner:hover{
+	opacity: 0.5;
+}
+
+/*third section*/
+#content{
+padding-top: 150px;
+}
+#text3{
+	width: 500px;
+	padding-left: 80px;
+	padding-top: 20px;
+}
+.flex{
+	display: flex;
+	flex-direction:rows;
+    justify-content:center;
+
+}
+.border{
+	border: solid rgba(255, 255, 255, 0.3);
+	border-width: 20px;
+	-moz-box-shadow:0 0 5px #888;
+	-webkit-box-shadow:0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+}
+/*fourth section*/
+#section-4{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#text4{
+	width: 500px;
+	direction: rtl;
+	padding-left: 80px;
+	padding-top: 20px;
+}
+.border-1{
+	border: solid rgba(255, 255, 255, 0.3);
+	border-width: 20px;
+	-moz-box-shadow:0 0 5px #888;
+	-webkit-box-shadow:0 0 5px #888;
+	box-shadow: 0 0 5px #888;
+}
+.col1{
+padding-left: 80px;
+}
+/*fifth section*/
+#section-5{
+	background: url("../images/foodsBg.jpg");
+	height: 600px;
+}
